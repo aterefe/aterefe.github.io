@@ -36,12 +36,26 @@ lastName = 'Nguyen'; //← Assigning a variable
 *assigning the varabile is giving it a datatype, functions, and many more 
 */
 //5. var,let,const
+//var example 
+var foodsList = ["banana", "water", "almond milk", "Ice cream"];
+//let exapmle
+let shoppingList = ["Nike", "Levi's", "Polo"];
+//const exapmle
+const number = 0; 
 /*
 *var can be reassingned and is global and local scope
 *let is only a scope block and it can be reassign
 *const cannot be reassinged and only in the block scope
 */
 //5. Hosting
+var newfunction = (money, power) => {
+    if(money > power){
+    var startingMoney = 5;//<-- we declared startingMoney in side the local scope
+    }
+    startingMoney = 10000;//<-- However we can reassign it because var is always 
+                         //hoisted tp the top
+    return startingMoney
+};
 /*
 *Pulling variable & function declarations
 Taken to top of their scope

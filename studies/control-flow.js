@@ -1,6 +1,7 @@
-/*
+/**
 *Control-Flow:
-*0.control flow is the order in which the computer executes statements in a script.
+*0.control flow is the order in which the computer executes statements in a 
+* script. if statement and switch statements are control flow.
 *1. to create a contorl flow we can use if/else if/else statements & switch statement
 */ 
 //1.if
@@ -30,7 +31,7 @@ console.log('hello');
 } else if (x < 40 ){
 console.log("Bye");
 } else { 
-console.log("fuck you");
+console.log("Hit the road Jack!");
 }//syntax 
 /*
 *Else statement - using the keyword else  that runs a block of code if all other conditions are false 
@@ -38,15 +39,15 @@ console.log("fuck you");
 *Since else statement are defaults, there is NO condition to check for
 */
 //4.switch
-switch(x) {
-  case x:
-    // code block
+switch("monkey") {
+  case "monkey":
+    console.log("bannas");//<-- prints bananas
     break;
-  case x:
-    // code block
+  case "Ape":
+    console.log("Ape Mode");
     break;
   default:
-    // code block
+    console.log("oohahhaha");
 }
 /*
 *The switch expression is evaluated once.
@@ -55,3 +56,10 @@ switch(x) {
 *The value of the expression is compared with the values of each case.
 *If there is a match, the associated block of code is executed.
 */
+
+/**
+ * The difference between bot control flow is switch expresion is pick one based
+ * on the variable value and a if else statement are ussualy  boolean expression
+ * 
+ * 
+ */
