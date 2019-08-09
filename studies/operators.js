@@ -5,19 +5,39 @@
 */
 //1. Assignment operators
 let y = 0;
+let b = 2;
 let x = 3;	
+var z = 5;
+var a = 6;
 x =+ y;			
 console.log(x); //<--prints 3
+y -= x;
+console.log(y);//<-- prints -3
+z *= x;
+console.log(z)//<-- prints out 15
+a /= x;
+console.log(a)//<--prints 2
+a %= b;
+console.log(a) //<-- prints 0
 /**
 *you use assignment operators are used to assign values to JavaScript variables.
 *ussaully when you are operating on the varaible
 */
 //2. Arithmetic operators
-//example             Description    
-var newWorld = 3;   //newWorld has a value of 3 
-let ourWorld = 4;   //ourWorld has a value of
-newWorld += ourWorld; //<--newWorld = 3 + 4;
+//example            
+var theWorld = 2;
+var newWorld = 3;   
+let ourWorld = 4; 
+const add = newWorld + ourWorld; 
 console.log(newWorld); //<--7
+const subtract = ourWorld - newWorld;
+console.log(subtract); //<-- 1
+const mutiply = ourWorld * newWorld;
+console.log(mutiply);//<-- 12
+const divide = ourWorld / theWorld;
+console.log(divide);//<-- 2
+const remainder = ourWorld % theWorld;
+console.log(remainder); //<-- 0
 /**
 *Arithmetic operators are used to perform arithmetic between variables and/or 
 *values.
@@ -42,20 +62,24 @@ if( "toy" === true || "object" === false){}//or
 *Logical operators are used to determine the logic between variables or values.
 */
 //5. Unary operators
-var r = [1, 2, 3];
-//Operator      Description
-delete x(0);  //<--delete first elemen
-
+var number = "5";
+var unary = -number;
+console.log(unary)//<-- prints -5
 /**
-*The delete operator deletes an object, an object's property, or an element at 
-* a specified index in an array.
+ * The unary negation can negate a number
+ * The unary negation opreator can convert non-number string into a number 
+ * datatype
 */ 
 //Tenary operator 
 //variablename = (condition) ? value1:value2 
 var age = 22;
-function drinkable(age){(age < 21) ? "Old enough":"Too young";} //example
+function drinkable(age){return age > 21 ? "Old enough":"Too young"} //example
 drinkable(age); //<--prints "Old enough"
 /**Example explained: If the variable "age" is a value below 21, the value of 
  * the variable "drinkable" will be "Too young", otherwise the value of 
  * drinkable will be "Old enough".
+ * Tenary operator is a shortcut of an if statement. The tenary operator has 
+ * three paramters in the syntax the first paramter is the condition statement 
+ * that is left of the question mark, second paramter is the true  to the left 
+ * of the : result and the last is the false result right of the 
 */

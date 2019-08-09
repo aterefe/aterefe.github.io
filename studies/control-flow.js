@@ -39,7 +39,8 @@ console.log("Hit the road Jack!");
 *Since else statement are defaults, there is NO condition to check for
 */
 //4.switch
-switch("monkey") {
+var primates = "monkey";
+switch(primates) {
   case "monkey":
     console.log("bannas");//<-- prints bananas
     break;
@@ -56,10 +57,3 @@ switch("monkey") {
 *The value of the expression is compared with the values of each case.
 *If there is a match, the associated block of code is executed.
 */
-
-/**
- * The difference between bot control flow is switch expresion is pick one based
- * on the variable value and a if else statement are ussualy  boolean expression
- * 
- * 
- */

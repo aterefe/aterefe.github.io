@@ -88,8 +88,8 @@ valueIsNaN(Number.NaN); // true
 *if data type is not a number it'll become NAN
 */
 //11. Infinity & -Infinity 
-var car = 1.797693134862315E+308.//<-- infinity 
-var truck = -1.797693134862316E+308. //<-- -infinity 
+var car = 1.797693134862315E+308;//<-- infinity 
+var truck = -1.797693134862316E+308; //<-- -infinity 
 /*
 *Infinity is a numeric value that represents positive infinity.
 *-Infinity is a numeric value that represents negative infinity.
@@ -115,17 +115,17 @@ typeof function myFunc(){}   // Returns "function"
 */
 //12. Primitive values are passed to a function BY COPY, complex values are BY REFERENCE. What does that mean, and how are they different?
 /**
-*by copy are setting a varabile to equal a primitve data and then copying that varabile and assinging it to a new varaible
-*by refecnce is refering to a value inside a a complex data type to refer to that value. 
+*by copy by value are setting a varabile to equal a primitve data and then copying that varabile and assinging it to a new varaible
+*by copy by refecnce is refering to a value inside a a complex data type to refer to that value. 
 */ 
 //Copy by value
 var x = "hello";
-var y = x //the value of var x is assigned to var y
-console.log(y)//<-- prints: "hello"
+var y = x; //the value of var x is assigned to var y
+console.log(y);//<-- prints: "hello"
 //copy by reference
-var obj = {name: "Abel"; age:34}; 
+var obj = {name: "Abel", age:34};
 /**
  * here ref is reffering back to obj which has a datatype of object, so both
  * var obj and var ref both refernce to the object
  */ 
-var ref = obj
+var ref = obj;

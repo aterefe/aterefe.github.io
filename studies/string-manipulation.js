@@ -20,7 +20,7 @@ var leba = "myworld";
 console.log(leba.toUpperCase());//<-- "Myworld"
 //the lenght of a string
 var name = "cain";
-console.log(name); //<-- prints 4
+console.log(name.length); //<-- prints 4
 //slice method
 var str = "Apple, Banana, lime";
 console.log(str.slice(7, 13)); //<--prints Banana
@@ -30,10 +30,10 @@ console.log(sentence.replace("bad", "nice")); //<--prints "Have a nice day!"
 //concat
 var str1 = "Tupac";
 var str2 = "is the best";
-console(str.concat(" ", str2)); //<-- prints "Tupac is the best"
+console.log(str1.concat(" ", str2)); //<-- prints "Tupac is the best"
 //charAT
 var string = "Wowzer";
-console.log(string.charAt(3)); //<--prints "Z"
+console.log(string.charAt(3)); //<--prints "z"
 //indexOf
 var string1 = "Yo What's up";
 console.log(string1.indexOf("up")); //<-- prints 10
