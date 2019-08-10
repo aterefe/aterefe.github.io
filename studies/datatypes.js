@@ -113,11 +113,11 @@ typeof function myFunc(){}   // Returns "function"
 *The typeof operator returns "object" for objects, arrays, and null.
 *The typeof operator does not return "object" for functions.
 */
-//12. Primitive values are passed to a function BY COPY, complex values are BY REFERENCE. What does that mean, and how are they different?
-/**
-*by copy by value are setting a varabile to equal a primitve data and then copying that varabile and assinging it to a new varaible
-*by copy by refecnce is refering to a value inside a a complex data type to refer to that value. 
-*/ 
+/**12. Primitive values are passed to a function BY COPY, complex values are 
+ * BY REFERENCE. What does that mean, and how are they different?
+ */
+//simple datatype are copy by value and complex data are copy by reference 
+
 //Copy by value
 var x = "hello";
 var y = x; //the value of var x is assigned to var y
@@ -129,3 +129,4 @@ var obj = {name: "Abel", age:34};
  * var obj and var ref both refernce to the object
  */ 
 var ref = obj;
+

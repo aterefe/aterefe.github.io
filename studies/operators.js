@@ -66,6 +66,7 @@ var number = "5";
 var unary = -number;
 console.log(unary)//<-- prints -5
 /**
+ * A unary operator takes only one operand/argument and performs an opreation.
  * The unary negation can negate a number
  * The unary negation opreator can convert non-number string into a number 
  * datatype
@@ -79,7 +80,7 @@ drinkable(age); //<--prints "Old enough"
  * the variable "drinkable" will be "Too young", otherwise the value of 
  * drinkable will be "Old enough".
  * Tenary operator is a shortcut of an if statement. The tenary operator has 
- * three paramters in the syntax the first paramter is the condition statement 
- * that is left of the question mark, second paramter is the true  to the left 
- * of the : result and the last is the false result right of the 
+ * three paramters/argument in the syntax the first paramter is the condition 
+ * statement that is left of the question mark, second paramter is the true to  
+ * the left of the : result and the last is the false result right of the 
 */
